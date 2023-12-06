@@ -23,7 +23,7 @@ namespace Bloxstrap
 
         private bool FreshInstall => String.IsNullOrEmpty(_versionGuid);
 
-        private string _playerFileName => _launchMode == LaunchMode.Player ? "RobloxPlayerBeta.exe" : "RobloxStudioBeta.exe";
+        private string _playerFileName => _launchMode == LaunchMode.Player ? "Minecraft.exe" : "RobloxStudioBeta.exe";
         // TODO: change name
         private string _playerLocation => Path.Combine(_versionFolder, _playerFileName);
 
